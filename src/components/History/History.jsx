@@ -1,6 +1,6 @@
 import React from "react";
 import { Download, History as HistoryIcon } from "lucide-react";
-import EmptyState from "../Common/EmptyState";
+import EmptyState from "../common/EmptyState";
 import { formatTime } from "../../utils/timerHelpers";
 
 const History = ({ history, darkMode, exportData }) => {
